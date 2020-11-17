@@ -1,0 +1,13 @@
+
+.Baixa {
+  background-color: red;
+  margin: 1em;
+  padding: .3em;
+  width: auto;
+}
+.Alta {
+  background-color: green;
+  margin: 1em;
+  padding: .3em;
+  width: auto;
+}

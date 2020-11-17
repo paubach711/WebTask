@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>    
+<html> 
+<heat>
+  <link rel="stylesheet" href="style.css">
+</heat>   
 <body> 
   <form action="/action_page.php">
     <input type="text" id="accion" name="afegir">
@@ -12,42 +15,44 @@
   </select><br><br>
     
   <ul>
-      <li>
+      <li class="Alta">
         Comprar el pa
         <a href="?eliminar=Comprar el pa">
           <img src="papelera.png" style="width:18px;height:18px;">
         </a>
       </li>
-      <li>
-        <p class=".classe-exemple-1">aprende HTML
+      <li class="Alta">
+        aprende HTML
         <a href="?eliminar=aprendre HTML">
           <img src="papelera.png" style="width:18px;height:18px;">
         </a>
       </li>
-      <li>
+      <li class="Baixa">
         Fer exercici
         <a href="?eliminar=Fer exercici">  
           <img src="papelera.png" style="width:18px;height:18px;">
         </a>
       </li>
-      <li>aprende CSS
+      <li class="Baixa">
+        aprende CSS
         <a href="?eliminar=aprende CSS">  
-        <img src="papelera.png" style="width:18px;height:18px;">
+          <img src="papelera.png" style="width:18px;height:18px;">
         </a>
       </li>
-      <li>
+      <li class="Alta">
         aprobar SMX
         <a href="?eliminar=aprobar SMX"> 
           <img src="papelera.png" style="width:18px;height:18px;">
         </a>
       </li>
   <style>
-    .classe-exemple-1 {
+    .Baixa {
       background-color: red;
     }
-    .classe-exemple-2 {
+    .Alta {
       background-color: green;
     }
+
   </style>
 </body>
 </html>
